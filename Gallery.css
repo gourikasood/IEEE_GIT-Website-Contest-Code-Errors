@@ -1,0 +1,43 @@
+.ol ul {
+	list-style-type: none;
+	padding: 3px;
+	position: fixed;
+
+}
+
+.ol ul li {
+	font-size: 30px;
+
+	font-family: sans-serif;
+	background-color: white;
+	letter-spacing: 0.1em;
+	width: 4em;
+	height: 1.5em;
+	line-height: 1.5em;
+	position: relative;
+	overflow: hidden;
+	margin: 0.5em;
+	cursor: pointer;
+}
+
+.ol ul li span {
+	color: white;
+	mix-blend-mode: difference;
+
+}
+
+.ol ul li::before {
+	content: '';
+	position: absolute;
+	width: 1.5em;
+	height: inherit;
+	background-color:#F3A46A;
+	border-radius: 50%;
+	top: 0;
+	left: -0.75em;
+	transition: 0.5s ease-out;
+}
+
+.ol ul li:hover::before {
+	transform: scale(7);
+}

@@ -1,0 +1,14 @@
+.op ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+.op li{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.op ul li {
+	list-style-type: none;
+	text-decoration: none;
+
+}
